@@ -10,19 +10,19 @@
 	/* @ngInject */
 	function menuItems() {
 		var data = [{
-			title: 'News',
+			title: 'Orang Awam',
 			path: 'articles',
 			icon: 'ion-speakerphone'
 		}, {
-			title: 'Products',
+			title: 'Usahawam',
 			path: 'products-extended',
 			icon: 'ion-android-cart'
 		}, {
-			title: 'Galleries',
+			title: 'Warga PKNS',
 			path: 'galleries',
 			icon: 'ion-images'
 		}, {
-			title: 'Map',
+			title: 'Perkhidmatan',
 			path: 'map',
 			icon: 'ion-map'
 		}];
