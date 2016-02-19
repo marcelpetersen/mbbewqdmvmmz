@@ -1,0 +1,79 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+//
+// Themes
+// Each theme consist of two .sccs files:
+//   1. Variables {theme}-var.scss
+//   2. Overrices {theme}.scss
+//
+// Activate a theme by uncommenting the related line below and at the end
+// of this document.
+//
+// Theme variables
+//
+// Square default
+// @import "square-var";
+//
+// Square dark
+// @import "squaredark-var";
+//
+// Awesome
+// @import "awesome-var";
+//
+// Ocean
+// @import "ocean-var";
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../fonts" !default;
+
+$extended-footer-height: 70px;
+//
+// Include all of Ionic
+//
+@import "../bower_components/ionic/scss/ionic";
+
+//
+// Theme overrides
+//
+// Square default
+// @import "square";
+//
+// Square dark
+// @import "squaredark";
+//
+// Awesome
+// @import "awesome";
+//
+// Ocean
+// @import "ocean";
+
+//
+// Local overrides
+//
+@import "common";
+@import "facebook";
+@import "home";
+@import "instagram";
+@import "map";
+@import "rss";
+@import "stream";
+@import "events";
+@import "swipeable-cards";
+@import "tinder-cards";
+@import "restaurant-catalogue";
+@import "stripe";
