@@ -12,19 +12,19 @@
 		var data = [{
 			title: 'Orang Awam',
 			path: 'articles',
-			icon: 'ion-speakerphone'
+			icon: 'ion-person'
 		}, {
 			title: 'Usahawam',
 			path: 'products-extended',
-			icon: 'ion-android-cart'
+			icon: 'ion-ios-briefcase'
 		}, {
 			title: 'Warga PKNS',
 			path: 'galleries',
-			icon: 'ion-images'
+			icon: 'ion-ios-people'
 		}, {
 			title: 'Perkhidmatan',
 			path: 'map',
-			icon: 'ion-map'
+			icon: 'ion-wrench'
 		}];
 
 		return data;

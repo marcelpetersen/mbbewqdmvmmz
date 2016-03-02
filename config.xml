@@ -2,10 +2,10 @@
 <widget id="com.titaniumtemplates.barebone-ionic" version="2.15.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>AppsKerajaan</name>
   <description>
-        Salah satu platform untuk akses ke portal kerajaan
+        Barebone Ionic. The boostrap you need in order to build your next Ionic application.
     </description>
-  <author email="contact@aidan.com.my" href="http://www.aidan.com">
-        Aidan Technologies Sdn Bhd
+  <author email="skounis@gmail.com" href="http://about.me/stavros.kounis">
+        Stavros Kounis
     </author>
   <content src="index.html"/>
   <access origin="*"/>

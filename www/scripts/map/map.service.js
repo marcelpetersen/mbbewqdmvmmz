@@ -11,18 +11,18 @@
 	function mapService() {
 		var data = {
 			origin: {
-					latitude : 37.407,
-					longitude : -122.1
+				latitude : 3.2003398,
+				longitude : 101.7184225
 			},
 			zoomLevel: 15,
 			annotations : [{
-					title : 'Molestie et wisi.',
-					latitude : 37.407,
-					longitude : -122.1
+					title : 'Aidan Technology sdn. bhd.',
+					latitude : 3.2003398,
+					longitude : 101.7184225
 			}, {
-					title : 'Ullamcorper eros.',								
-					latitude : 37.41,
-					longitude : -122.1
+					title : 'Aidan Technology sdn. bhd.',
+					latitude : 3.2003398,
+					longitude :101.7184225
 			}]
 		};
 		return data;

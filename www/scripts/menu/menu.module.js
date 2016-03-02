@@ -2,9 +2,7 @@
 	'use strict';
 
 	angular
-		.module('barebone.menu', [
-			'ionic'
-		])
+		.module('barebone.menu', ['ionic'])
 		.config(function($stateProvider) {
 			$stateProvider
 				.state('app', {

@@ -99,6 +99,7 @@
       "locator": "https://github.com/Telerik-Verified-Plugins/Stripe",
       "id": "com.telerik.stripe"
     },
+    "cordova-plugin-inappbrowser",
     "cordova-plugin-inappbrowser"
   ]
 }
