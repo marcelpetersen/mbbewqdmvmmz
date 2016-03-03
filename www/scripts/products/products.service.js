@@ -9,7 +9,8 @@
 
 	/* @ngInject */
 	function productsService($q, $http) {
-		var url = 'http://skounis.s3.amazonaws.com/mobile-apps/barebone-glossy/products.json';
+		//var url = 'http://skounis.s3.amazonaws.com/mobile-apps/barebone-glossy/products.json';
+		var url 	= 'http://aidansoftware.com/client/jpnj/json/ContentLatest.json';
 		var result = [];
 
 		var service = {
