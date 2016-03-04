@@ -10437,11 +10437,14 @@ a.button .icon:before, a.button.icon:before, a.button.icon-left:before, a.button
   position: fixed;
   -webkit-overflow-scrolling: touch;
   overflow: scroll;
+  height: 100%;
+  width: 100%;
 }
 .iframe-wrapper iframe {
   height: 100%;
   width: 100%;
 }
+
 
 /**
  * Rounded

@@ -5,6 +5,7 @@
 		.module('barebone.stripe', [
 			'ionic',
 			'credit-cards'
+
 		])
 		.config(function($stateProvider) {
 			$stateProvider
