@@ -11,18 +11,18 @@
 	function mapService() {
 		var data = {
 			origin: {
-				latitude : 3.2003398,
-				longitude : 101.7184225
+				latitude : 3.0915378,
+				longitude : 101.5453529
 			},
 			zoomLevel: 15,
 			annotations : [{
-					title : 'Aidan Technology sdn. bhd.',
-					latitude : 3.2003398,
-					longitude : 101.7184225
+					title : 'Perbadanan Kemajuan Negeri Selangor',
+					latitude : 3.0915378,
+					longitude : 101.5453529
 			}, {
-					title : 'Aidan Technology sdn. bhd.',
-					latitude : 3.2003398,
-					longitude :101.7184225
+					title : 'Perbadanan Kemajuan Negeri Selangor',
+					latitude : 3.0915378,
+					longitude :101.5453529
 			}]
 		};
 		return data;
