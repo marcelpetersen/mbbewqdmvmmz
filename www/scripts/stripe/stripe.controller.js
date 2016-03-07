@@ -9,7 +9,7 @@
 
 	/* @ngInject */
 	function StripeController(stripeService) {
-		var types = ['Visa', 'American Express', 'MasterCard'];
+		/*var types = ['Visa', 'American Express', 'MasterCard'];
 		var months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 		var years = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2025];
 		var card = {
@@ -40,7 +40,7 @@
 					}, function(response) {
 						alert(response);
 					});
-		}
+		}*/
 
 		function convertToInt(id){
     	return parseInt(id, 10);
