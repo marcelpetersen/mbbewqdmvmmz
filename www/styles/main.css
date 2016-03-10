@@ -4142,6 +4142,7 @@ body.grade-c {
 
 .menu .scroll-content.scroll-content-false {
   z-index: 11;
+  background-color:#8194EA;
 }
 
 .scroll-view {
@@ -4785,7 +4786,7 @@ a.subdued:last-child {
 }
 .bar.bar-stable {
   border-color: #b2b2b2;
-  background-color: #f8f8f8;
+  background-color: #C1392B;
   background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);
   color: #444;
 }
@@ -6458,6 +6459,7 @@ ion-tabs.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs.tabs-color-a
   .platform-ios.platform-cordova .modal-wrapper .modal .has-header,
   .platform-ios.platform-cordova .modal-wrapper .modal .bar-subheader {
     top: 44px;
+
   }
   .platform-ios.platform-cordova .modal-wrapper .modal .has-subheader {
     top: 88px;
@@ -7792,10 +7794,12 @@ button.item.item-button-right {
  * --------------------------------------------------
  * A card and list-inset are close to the same thing, except a card as a box shadow.
  */
+
+ /**change background color for home menu button*/
 .card,
 .list-inset {
   overflow: hidden;
-  margin: 20px 10px;
+  margin: 10px 5px;
   border-radius: 2px;
   background-color: #fff;
 }
