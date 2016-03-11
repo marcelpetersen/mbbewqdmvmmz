@@ -10,7 +10,7 @@
 	/* @ngInject */
 	function productsService($q, $http) {
 		//var url = 'http://skounis.s3.amazonaws.com/mobile-apps/barebone-glossy/products.json';
-		var url 	= 'http://aidansoftware.com/client/jpnj/json/ContentLatest.json';
+		var url 	= 'http://aidansoftware.com/client/jpnj/json/ContentLatest_large.json';
 		var result = [];
 
 		var service = {
@@ -40,8 +40,11 @@
 
 		function get(productId) {
 			// we take a product from cache but we can request ir from the server
+
 			for (var i = 0; i < result.length; i++) {
-				if (result[i].id === productId) {
+			console.log('Product ID (Products):' + productId +' i: '+ i + ' Result ID: ' +result[i].id );
+				if (result[i].id == productId) {
+
 					return $q.when(result[i]);
 				}
 			}
