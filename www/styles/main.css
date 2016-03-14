@@ -4157,6 +4157,7 @@ body.grade-c {
  * scroll view functionality.
  */
 .scroll {
+  height: 100%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -10438,8 +10439,7 @@ a.button .icon:before, a.button.icon:before, a.button.icon-left:before, a.button
  * --------------------------------------------------
  */
 .iframe-wrapper {
-  position: fixed;
-  -webkit-overflow-scrolling: touch;
+  position: relative;
   overflow: scroll;
   height: 100%;
   width: 100%;
