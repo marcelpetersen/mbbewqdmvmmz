@@ -44,7 +44,7 @@
 			for (var i = 0; i < result.length; i++) {
 			console.log('Product ID (Products):' + productId +' i: '+ i + ' Result ID: ' +result[i].id );
 				if (result[i].id == productId) {
-
+        
 					return $q.when(result[i]);
 				}
 			}

@@ -10,7 +10,8 @@
 	/* @ngInject */
 	function ProductController($scope, $stateParams, productsService) {
 		var vm = angular.extend(this, {
-			product: null
+			product: null,
+			
 		});
 
 		// **********************************************
