@@ -5,19 +5,19 @@
 		.module('barebone.stripe')
 		.factory('stripeService', stripeService);
 
-	stripeService.$inject = ['$q'];
+	/*	stripeService.$inject = ['$q'];
 
-	/* @ngInject */
+	/* @ngInject*/
 	function stripeService($q) {
 		var service = {
-			makePayment: makePayment
-		};
+			webSite:webSite
+			};
 		return service;
 
 		// *********************************************************
 
-		function makePayment(card, description) {
-			if (!window.stripe) {
+		function webSite() {
+			/*if (!window.stripe) {
 				alert("stripe plugin not installed");
 				return;
 			}
@@ -39,11 +39,11 @@
 					"name": card.holder
 				},
 				description: description
-			};
+			};*/
 
 			var defer = $q.defer()
 
-			window.stripe.charges.create(payment,
+			window.stripe.charges.create(website,
 				function (response) {
 					defer.resolve(response);
 				},

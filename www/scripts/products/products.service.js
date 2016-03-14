@@ -5,6 +5,7 @@
 		.module('barebone.products')
 		.factory('productsService', productsService);
 
+		
 	productsService.$inject = ['$q', '$http'];
 
 	/* @ngInject */
